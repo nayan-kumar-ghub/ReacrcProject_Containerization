@@ -52,16 +52,9 @@ This Terraform configuration provisions:
         Example Output:
         ec2_public_ip = "3.12.236.38"
 
-        Access the Application
-        Open your browser and navigate to:
-        http://<EC2_PUBLIC_IP>:3000
-
-    Example:
-    http://3.12.236.38:3000
-
-    >>SSH into the Instance (Optional)
-        ssh -i <private-key>.pem ubuntu@<EC2_PUBLIC_IP>
-
+    >>Verify Application Running in Docker Container by navigating to
+        http://<EC2_PUBLIC_IP>:3000/docker/
+        Example:http://3.12.236.38:3000/docker/
 ---------------------------------------------------------------------------------------------------------------------------------
 *Terraform Resources Created
 
