@@ -1,4 +1,4 @@
-------------------*--------------------Quest App Terraform Deployment (Containerization)------------------*--------------------
+-----------------*-------------------Quest App Terraform Deployment (Containerization)-----------------*-------------------
 
 This repository contains Terraform configurations to deploy the Quest App on AWS. The setup includes a VPC, an EC2 instance running a Dockerized application, and an Elastic IP for public access.
 
